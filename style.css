@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    border: none;
+    font-family: 'Ubuntu';
+}
+
+body {
+    background: linear-gradient(to bottom, #DED0EF 0%, #FFFFFF 50%, #82BDDB 100%);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-bottom: 1px solid black;
+}
+
+header>img {
+    width: 256px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-wrap: balance;
+    /* margin: 16px; */
+    padding: 24px;
+    justify-content: center;
+    min-height: 450px;
+    /* background-image: url(media/texture.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    border-bottom: 1px solid black;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.intro>p {
+    font-size: 32px;
+    font-weight: 100;
+    line-height: 32px;
+    margin-top: 16px;
+}
+
+.intro>h1 {
+    font-size: 44px;
+    font-weight: bolder;
+    line-height: 48px;
+}
+
+.about {
+    padding: 16px;
+    min-height: 450px;
+    border-bottom: 1px solid black;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.services {
+    padding: 16px;
+    min-height: 450px;
+    border-bottom: 1px solid black;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.faq {
+    padding: 16px;
+    min-height: 450px;
+    border-bottom: 1px solid black;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.contact {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 16px;
+    min-height: 450px;
+    border-bottom: 1px solid black;
+}
+
+.title {
+    margin-left: 10px;
+    font-size: 28px;
+}
+
+footer {
+    text-align: center;
+    padding: 16px;
+    font-size: 19px;
+}
+
+footer>a {
+    color: inherit;
+}
+
+.informations {
+    display: flex;
+    margin-left: 10px;
+    padding: 16px;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+/* .aboutme{
+    max-width: 400px;
+} */
+
+.van {
+    max-width: 400px;
+}
+
+.vanessa {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid black;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.dot {
+    margin-left: 10px;
+    padding: 8px;
+}
+
+.whatsapp-link {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 89px;
+    right: 17px;
+    background-color: #ceb2f0;
+    color: #ffffff;
+    border-radius: 50px;
+    font-size: 32px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    z-index: 100;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}
+
+.whatsapp-link:hover {
+    background-color: #DED0EF;
+}
+
+.up-link {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 17px;
+    right: 17px;
+    background-color: #ceb2f0;
+    color: #ffffff;
+    border-radius: 50px;
+    font-size: 32px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    z-index: 100;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}
+
+.up-link:hover {
+    background-color: #DED0EF;
+}
+
+html ::-webkit-scrollbar {
+    width: 9px;
+}
+
+html ::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: #eddeff;
+}
+
+html ::-webkit-scrollbar-track {
+    background: #cfacfa;
+}
