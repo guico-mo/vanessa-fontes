@@ -1,0 +1,45 @@
+.cookie-modal {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #DED0EF;
+    /* Cor de fundo especificada */
+    color: #000000;
+    /* Cor do texto */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    /* Z-index maior que todos para estar sempre visível */
+    width: 300px;
+    /* Largura especificada */
+    display: none;
+    /* Inicia oculto */
+}
+
+.cookie-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cookie-content p {
+    margin: 10px 0;
+    font-size: 14px;
+    /* Tamanho menor para explicação dos cookies */
+}
+
+.cookie-content p.large {
+    font-size: 18px;
+    /* Tamanho maior para mensagem principal */
+}
+
+button {
+    background-color: #FFFFFF;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
