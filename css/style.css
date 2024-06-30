@@ -230,3 +230,7 @@ footer>a {
     display: flex;
     margin: 16px;
 }
+
+.abordagem span {
+    font-weight: bolder;
+}
