@@ -55,3 +55,20 @@
         font-size: 24px;
     }
 }
+
+@media screen and (max-width: 500px) and (orientation: portrait) {
+    .img1 {
+        display: inline;
+        width: 90%;
+        max-width: 100%;
+        height: auto;
+        margin-top: 32px;
+    }
+
+    .intro {
+        padding: 32px;
+        margin: 0;
+        justify-content: unset;
+        min-height: auto;
+    }
+}
