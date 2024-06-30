@@ -82,6 +82,10 @@ footer {
     font-size: 19px;
 }
 
+.aboutme>p{
+    font-size: 22px;
+}
+
 footer>a {
     color: inherit;
 }
