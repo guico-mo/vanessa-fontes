@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/config.css">
+    <link rel="stylesheet" href="css/form.css">
     <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
 
     <script src="https://kit.fontawesome.com/9df45e6afb.js" crossorigin="anonymous"></script>
@@ -22,16 +23,10 @@
         <a class="whatsapp-link" href="https://wa.me/+5575992155380" target="_blank"><i class="fa fa-whatsapp"></i></a>
     </div>
     <div id="wa-link">
-        <a class="up-link" href="#header"><i class="fa-solid fa-angle-up"></i></i></a>
+        <a class="up-link" href="#wa-link"><i class="fa-solid fa-angle-up"></i></i></a>
     </div>
-    <br><br>
-    <a href="index2.html">opção 2 - logo</a>
-    <br><br>
-    <a href="index3.html">opção 3 - logo</a>
-    <br><br>
-    <a href="index4.html">opção 4 - logo</a>
     <header id="header">
-        <img src="media/logo-duotone.png" alt="Logo Vanessa Fontes">
+        <img src="media/logo.png" alt="Logo Vanessa Fontes">
     </header>
     <div>
         <div class="van1">
@@ -51,7 +46,7 @@
                     com o bem-estar emocional e mental das pessoas. Meu trabalho é focado em auxiliar indivíduos na
                     minimização do sofrimento, no desenvolvimento humano e na promoção da saúde mental.</p>
                 <br>
-                <p>Minha abordagem é baseada nos princípios da Psicologia Analítica Junguiana, que valoriza a busca pelo
+                <p>Minha abordagem é baseada nos princípios da Psicologia Junguiana, que valoriza a busca pelo
                     autoconhecimento e o equilíbrio entre as diversas partes do nosso ser. Acredito que cada pessoa é
                     única e que merece um tratamento personalizado e empático.</p>
                 <br>
@@ -59,6 +54,9 @@
                     oferecer um espaço acolhedor e seguro para aqueles que buscam apoio psicológico. Estou aqui para
                     caminhar ao seu lado nessa jornada de autodescoberta e crescimento pessoal, oferecendo orientação e
                     suporte em cada passo do caminho.</p>
+                <br>
+                <a href="https://wa.me/+5575992155380" class="fale-comigo">Fale comigo!</a>
+                <br>
             </div>
             <div class="van">
                 <img src="media/img2.jpg" alt="Vanessa Fontes" class="img2">
@@ -94,9 +92,6 @@
             <br>
             <p>Cada sessão oferece suporte contínuo e ferramentas práticas para aplicar no dia a dia, promovendo
                 crescimento pessoal e resiliência emocional.</p>
-            <br>
-            <p>Para agendar uma sessão ou obter mais informações, entre em contato através do nosso formulário de
-                contato.</p>
         </div>
     </div>
     <div class="contact">
@@ -107,7 +102,7 @@
                     <div class="icon-contato">
                         <i class="fa-brands fa-whatsapp"></i>
                     </div>
-                    <a href="wa.me/+5575992155380" class="a-contato">(75) 99215-5380</a>
+                    <a href="https://wa.me/+5575992155380" class="a-contato">(75) 99215-5380</a>
                 </div>
                 <div class="div-contato">
                     <div class="icon-contato">
@@ -120,7 +115,7 @@
                     <div class="icon-contato">
                         <i class="fa-brands fa-linkedin-in"></i>
                     </div>
-                    <a href="http://linkedin.com/in/vanessa-fontes-465b19264" target="_blank" class="a-contato">Vanessa
+                    <a href="https://linkedin.com/in/vanessa-fontes-465b19264" target="_blank" class="a-contato">Vanessa
                         Fontes</a>
                 </div>
                 <div class="div-contato">
@@ -131,10 +126,22 @@
                 </div>
             </div>
             <div>
-                <br><br>
-                <p>ainda vou terminar de ajustar a estilização dos links das redes</p>
-                <br>
-                <p>e aqui ainda falta o formulário de contato (envio de mensagem e etc)</p>
+                <form id="contact-form" method="POST">
+                    <div>
+                        <input type="text" id="name" name="name" placeholder="Nome" autocomplete="name" required>
+                    </div>
+                    <div>
+                        <input type="tel" id="phone" name="phone" placeholder="Celular (WhatsApp)" autocomplete="tel"
+                            required>
+                    </div>
+                    <div>
+                        <input type="email" id="email" name="email" placeholder="E-mail" autocomplete="email" required>
+                    </div>
+                    <div>
+                        <textarea id="message" name="message" placeholder="Mensagem" required></textarea>
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
             </div>
         </div>
     </div>

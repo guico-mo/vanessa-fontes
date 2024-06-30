@@ -68,7 +68,6 @@ header>img {
 .contact {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     padding: 16px;
-    min-height: 450px;
     border-bottom: 1px solid black;
 }
 
@@ -177,10 +176,10 @@ footer>a {
     margin-bottom: 8px;
 }
 
-.links-contato{
+/* .links-contato{
     margin-left: 10px;
     padding: 8px;
-}
+} */
 
 .div-contato:hover {
     opacity: 50%;
@@ -201,4 +200,33 @@ footer>a {
 
 .forms>iframe{
     height: 1250px;
+}
+
+.fale-comigo{
+    text-decoration: none;
+    color: black;
+    padding-block: 12px;
+    padding-inline: 48px;
+    background-color: #d3beec;
+    width: auto;
+    /* margin: 8px; */
+    align-self: center;
+    /* border: 0.5px solid black; */
+    transition: .3s;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.fale-comigo:hover{
+    background-color: #DED0EF;
+}
+
+.aboutme{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-contact{
+    display: flex;
+    margin: 16px;
 }
