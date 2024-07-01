@@ -6,7 +6,6 @@
 
     footer {
         text-align: left;
-        /* padding: 16px; */
         font-size: 17px;
     }
 
@@ -46,10 +45,6 @@
 
     .informations {
         align-items: center;
-    }
-
-    .div-contato {
-        /* font-size: 24px; */
     }
 
     .icon-contato {

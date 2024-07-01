@@ -4,18 +4,13 @@
     left: 50%;
     transform: translateX(-50%);
     background-color: #DED0EF;
-    /* Cor de fundo especificada */
     color: #000000;
-    /* Cor do texto */
     padding: 15px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     z-index: 1000;
-    /* Z-index maior que todos para estar sempre visível */
     width: 300px;
-    /* Largura especificada */
     display: none;
-    /* Inicia oculto */
 }
 
 .cookie-content {
@@ -27,12 +22,10 @@
 .cookie-content p {
     margin: 10px 0;
     font-size: 14px;
-    /* Tamanho menor para explicação dos cookies */
 }
 
 .cookie-content p.large {
     font-size: 18px;
-    /* Tamanho maior para mensagem principal */
 }
 
 button {

@@ -19,14 +19,9 @@ header>img {
     flex-direction: column;
     text-align: center;
     text-wrap: balance;
-    /* margin: 16px; */
     padding: 24px;
     justify-content: center;
     min-height: 450px;
-    /* background-image: url(media/texture.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
     border-bottom: 1px solid black;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
@@ -58,13 +53,6 @@ header>img {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-.faq {
-    padding: 16px;
-    min-height: 450px;
-    border-bottom: 1px solid black;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}
-
 .contact {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     padding: 16px;
@@ -80,10 +68,6 @@ footer {
     text-align: center;
     padding: 16px;
     font-size: 19px;
-}
-
-.aboutme>p{
-    /* font-size: 22px; */
 }
 
 footer>a {
@@ -163,6 +147,8 @@ footer>a {
 
 .img1 {
     display: none;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: 1px solid black;
 }
 
 .van1 {
@@ -179,11 +165,6 @@ footer>a {
     margin-top: 8px;
     margin-bottom: 8px;
 }
-
-/* .links-contato{
-    margin-left: 10px;
-    padding: 8px;
-} */
 
 .div-contato:hover {
     opacity: 50%;
@@ -202,43 +183,32 @@ footer>a {
     color: inherit;
 }
 
-.forms>iframe{
-    height: 1250px;
-}
-
-.fale-comigo{
+.fale-comigo {
     text-decoration: none;
     color: black;
     padding-block: 12px;
     padding-inline: 48px;
     background-color: #d3beec;
     width: auto;
-    /* margin: 8px; */
     align-self: center;
-    /* border: 0.5px solid black; */
     transition: .3s;
     border-radius: 4px;
-    /* font-size: 21px; */
 }
 
-.fale-comigo:hover{
+.fale-comigo:hover {
     background-color: #DED0EF;
 }
 
-.aboutme{
+.aboutme {
     display: flex;
     flex-direction: column;
 }
 
-.main-contact{
+.main-contact {
     display: flex;
     margin: 16px;
 }
 
-.abordagem span {
-    font-weight: bolder;
-}
-
-.p{
+.p {
     font-size: 21px;
 }

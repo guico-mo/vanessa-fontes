@@ -2,10 +2,6 @@
     margin: 0;
     border: none;
     font-family: 'Ubuntu';
-    /* user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none; */
 }
 
 html ::-webkit-scrollbar {
