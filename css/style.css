@@ -83,7 +83,7 @@ footer {
 }
 
 .aboutme>p{
-    font-size: 22px;
+    /* font-size: 22px; */
 }
 
 footer>a {
@@ -172,7 +172,7 @@ footer>a {
 
 .div-contato {
     display: flex;
-    font-size: 23px;
+    font-size: 21px;
     gap: 8px;
     align-items: center;
     transition: .3s;
@@ -190,8 +190,8 @@ footer>a {
 }
 
 .icon-contato {
-    width: 25px;
-    height: 25px;
+    width: 23px;
+    height: 23px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -237,4 +237,8 @@ footer>a {
 
 .abordagem span {
     font-weight: bolder;
+}
+
+.p{
+    font-size: 21px;
 }
